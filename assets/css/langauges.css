@@ -1,0 +1,30 @@
+#lans {
+    display: flex;
+    padding-top: 60px;
+    height: 350px;
+    /* transform:translate(0px,-82px); */
+    justify-content: center;
+}
+#lans .lan {
+    text-align: center;
+    width: 22%;
+    background-color: rgba(255, 255, 255, 0);
+    display:inline-block;
+    height: 200px;
+    margin-right: 5%;
+    margin-left: 75px;
+}
+
+.lan .name {
+    font-family: "Soleil Book";
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+.lan .image {
+    margin-top: 35px;
+}
+.lan .text {
+    font-size: 18px;
+}

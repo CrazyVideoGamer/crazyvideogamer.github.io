@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<link rel='shortcut icon' href="favicon.png">
+		<link rel='stylesheet' href='assets/css/main.css'>
+		<link rel='stylesheet' href='assets/css/langauges.css'>
+		<script src='assets/js/script.js'></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js">
+$(window).scroll(function() { 
+    let scrolldown = $(window).scrollTop();
+    if (scrolldown >= 70) {
+		let nav = document.getElementsByTagName('nav')[0];
+	} else {
+		//pass
+	}
+}); 
+		</script>
+		<script src='js/jquery.scrollTo-min.js'></script>
+	</head>
+
+	<body>
+		<nav>
+			<a href='index.html' class='active'>Home</a>
+			<a href='assets/pages/projects.html'>Projects</a>
+			<a href='https://www.github.com/crazyvideogamez'>GitHub</a>
+			<a href='assets/pages/contact.html'>Contact</a>
+		</nav>
+		<div class='top'>
+			<br><br>
+			<h1 id='middle-text'><span style='background-color:black;'>CrazyVideoGamez</span></h1>
+			<h2 id='middle-text-two'><span style='background-color:black;'>Crazy Koder</span></h2>
+			<button id='gitButton' onclick=github()>Github</button>
+			<br><br>
+		</div>
+
+		<h1 style='text-align:center;font-family:"Staatliches",sans-serif;font-size: 59px;'>Welcome!</h1>
+
+		<div id="lans" style='margin-top: -80px;'>
+			<div class="lan">
+				<img class="image" src="assets/images/py-logo.png" width="57%" style='margin-top: 47px;'>
+				<h3 class="name">Python</h3>
+				<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+			<div class="lan">
+				<img class="image" src="assets/images/html-logo.png" width="30%" style='margin-top: 40px;'>
+				<h3 class="name">HTML</h3>
+				<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+			<div class="lan">
+					<img class="image" src="assets/images/js-logo.png" width="30%" style='margin-top: 8px;'>
+					<h3 class="name">Javascript</h3>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+		</div>
+		
+		<div class='division-background'></div>
+		<div class='bottom'>
+			<!---
+			<footer style='height:30px;width:auto;background-color:black;'>
+				<p style='color:white;'>Contact <a href='mailto:jasonanyilian@gmail.com' style='text-decoration:none;color:white;'>here</a></p>
+				<br><br><br><br><br><br>
+			</footer>
+			-->
+		</div>
+	</body>
+</html>
