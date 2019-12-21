@@ -68,8 +68,8 @@ nav .black {
 }
 
 .division-background {
-	margin-top: -500px;
-	clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+	margin-top: -600px;
+	clip-path: polygon(100% 29%, 100% 100%, 0 100%, 0% 50%);;
 	background-color: rgb(59, 183, 255);
 	content: '';
 	height: 500px;
