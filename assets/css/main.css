@@ -6,17 +6,17 @@ body {
 }
 .top {
 	margin: 12px;
-	margin-top: -5px;
+	margin-top: -962px;
 	height: auto;
 	width: auto;
 	text-align: center;
 	background-image: url('../images/bk-ground_pic.png');
 	background-size: cover;
+	z-index: -1;
 }
 nav {
 	background-color: rgba(202, 194, 194, 0.623);
 	overflow: hidden;
-	z-index: 1;
 }
 nav a {
 	float: left;
@@ -73,7 +73,6 @@ nav .black {
 	margin-top: -500px;
 	clip-path: polygon(100% 29%, 100% 100%, 0 100%, 0% 50%);;
 	background-color: rgb(59, 183, 255);
-	content: '';
 	height: 600px;
 	width: auto;
 	position: relative;
