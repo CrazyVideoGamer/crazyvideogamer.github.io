@@ -5,8 +5,8 @@ body {
 	margin:0px;
 }
 .top {
+	top: 0px;
 	margin: 12px;
-	margin-top: -962px;
 	height: auto;
 	width: auto;
 	text-align: center;
