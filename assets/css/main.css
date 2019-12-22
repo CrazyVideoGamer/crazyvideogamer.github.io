@@ -14,8 +14,9 @@ body {
 	background-size: cover;
 }
 nav {
-	background-color: rgba(202, 194, 194, 0.856);
+	background-color: rgba(202, 194, 194, 0.623);
 	overflow: hidden;
+	z-index: 1;
 }
 nav a {
 	float: left;
