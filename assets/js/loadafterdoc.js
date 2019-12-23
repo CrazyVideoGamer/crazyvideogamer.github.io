@@ -10,7 +10,7 @@ if (window.navigator.userAgent.indexOf("Edge") > -1) {
     clipPath.id = "myclippath"
     clipPath.clipPathUnits = 'objectBoundingBox'
 
-    let polygon = doucment.createElement('polygon');
+    let polygon = document.createElement('polygon');
     polygon.points = '1, 0.29, 1, 1, 0, 1, 0, 0.50'
 
     let link = document.createElement('link');
