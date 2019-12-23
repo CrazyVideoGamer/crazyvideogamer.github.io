@@ -16,7 +16,7 @@ if (window.navigator.userAgent.indexOf("Edge") > -1) {
     let link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = '../css/clippath.css'
+    link.href = 'https://crazyvideogamez.github.io/assets/css/clippath.css'
 
 
     let edge = document.getElementById('edge');
