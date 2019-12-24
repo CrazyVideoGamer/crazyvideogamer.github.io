@@ -1,5 +1,6 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Questrial|Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 
 body {
 	margin:0px;
@@ -26,6 +27,7 @@ nav a {
 	font-size: 20px;
 	margin: 6px;
 	margin-left: 20px;
+	font-family: 'Poppins', sans-serif;
 }
 nav a:hover {
 	background-color: grey;
