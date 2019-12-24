@@ -6,9 +6,11 @@ let prevScrollpos = window.pageYOffset, currentScrollPos = undefined;
 window.onscroll = function() {
     currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-        document.getElementsByTagName('nav')[0].style.top = '0';
+        document.getElementsByTagName('nav')[0].style.top = '0px';
     } else {
-        document.getElementsByTagName('nav')[0].style.top = "-80px";
+        if (currentScrollPos > 35) {
+            document.getElementsByTagName('nav')[0].style.top = "-64px";
+        }
     }
     prevScrollpos = currentScrollPos;
 }
