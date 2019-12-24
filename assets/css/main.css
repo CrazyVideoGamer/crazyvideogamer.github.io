@@ -15,7 +15,7 @@ body {
 	z-index: -1;
 }
 nav {
-	background-color: rgba(202, 194, 194, 0.623);
+	background-color: black;
 	overflow: hidden;
 }
 nav a {
@@ -30,7 +30,7 @@ nav a {
 nav a:hover {
 	background-color: grey;
 }
-nav a.active {
+nav a[class="active"] {
 	color: rgb(31, 148, 194);
 }
 
