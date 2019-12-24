@@ -17,6 +17,7 @@ body {
 	transition: top 0.3; /* Transition effect when scrolling down (and up) */
 }
 nav {
+	position: fixed;
 	background-color: black;
 	overflow: hidden;
 }
