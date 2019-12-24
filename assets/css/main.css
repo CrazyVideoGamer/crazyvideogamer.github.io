@@ -21,7 +21,7 @@ nav {
 	width: 100%;
 	background-color: black;
 	overflow: hidden;
-	transition: top 0.05s;
+	transition: top 0.1s;
 	z-index: 1;
 }
 nav a {
