@@ -14,12 +14,14 @@ body {
 	background-image: url('../images/bk-ground_pic.png');
 	background-size: cover;
 	z-index: -1;
-	transition: top 0.3; /* Transition effect when scrolling down (and up) */
 }
 nav {
+	top: 0px;
 	position: fixed;
+	width: 100%;
 	background-color: black;
 	overflow: hidden;
+	transition: top 0.3s;
 }
 nav a {
 	float: left;
