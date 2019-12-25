@@ -52,6 +52,9 @@ section a:hover {
     color: rgb(237, 167, 255);
     transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
+section a:hover p, section a:hover h1 {
+    color: rgb(226, 226, 226);
+}
 @media only screen and (min-width: 813px) {
     section a { 
         flex-basis: 300px;

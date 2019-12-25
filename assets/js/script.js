@@ -2,7 +2,10 @@ function github(){
     window.open('https://www.github.com/crazyvideogamez', target='_top');
 }
 
-height = $(document).height();
+var body = document.body,
+    html = document.documentElement;
+var height = Math.max( body.scrollHeight, body.offsetHeight, 
+    html.clientHeight, html.scrollHeight, html.offsetHeight );
 
 let prevScrollpos = window.pageYOffset, currentScrollPos = undefined;
 window.onscroll = function() {
