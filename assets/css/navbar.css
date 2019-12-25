@@ -1,3 +1,12 @@
+.github-corner {
+	z-index: 2;
+	transition: top 0.2s;
+	float: right;
+	position: fixed;
+	left: 100%;
+	top: 0;
+}
+
 nav {
 	top: 0px;
 	position: fixed;
@@ -6,12 +15,13 @@ nav {
 	overflow: hidden;
 	transition: top 0.2s;
 	z-index: 1;
+	height: 80px;
 }
 nav a {
 	float: left;
 	text-decoration: none;
 	color: #0f90db;
-	padding: 14px 16px;
+	padding: 21px 19px;
 	font-size: 20px;
 	margin: 6px;
 	margin-left: 20px;
@@ -34,57 +44,4 @@ nav a[class="active"] {
 	.dropdown {
 		display: block;
 	}
-}
-
-/* Dropdown CSS */
-
-/* .dropdown {
-	display: none;
-	float: left;
-	overflow: hidden;
-}
-
-.dropdown .dropbtn {
-	font-size: 16px;
-	border: none;
-	outline: none;
-	color: white;
-	padding: 14px 16px;
-	background-color: inherit;
-	font-family: inherit;
-	margin: 0;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: red;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 2;
-}
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.show {
-	display: block;
-} */
-.dropdown-content {
-	display: none;
 }
