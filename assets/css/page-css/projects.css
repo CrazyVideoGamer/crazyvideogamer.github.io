@@ -1,6 +1,11 @@
 @import url('../navbar.css');
 @import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
 body {
     color: rgb(226, 226, 226);
     margin: 0px;
@@ -31,10 +36,6 @@ section a {
     flex-basis: 90%;
     margin: 20px;
     transition: transform 0.1s ease, box-shadow 0.6s ease;
-}
-* {
-	margin: 0px;
-	padding: 0px;
 }
 
 section a h1 {
