@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+@font-face {
+    font-family: "anurati";
+    src: url("../media/fonts/anurati/Anurati-Regular.otf") format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(71, 70, 66);
+}
+
+header {
+    position: static;
+}
+#logo {
+    display: inline;
+}
+#logo a {
+    font-family: "anurati";
+    text-transform: uppercase;
+    display: inline;
+    font-size: 42px;
+    color: white;
+    text-decoration: none;
+}
+#logo a:hover {
+    border-bottom: 4px solid white;
+}
+a:hover {
+    box-shadow: 0px 5px white;
+}
+
+nav {
+    /* text-align: right; */
+    float: right;
+}
+
+ul.nav__links {
+    list-style-type: none;
+    text-align: right;
+
+    overflow: hidden;
+}
+ul.nav__links li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul.nav__links li a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 31px;
+    color: white;
+
+    text-decoration: none;
+    display: block;
+    width: /* 100px; */ auto;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+li a::first-letter {
+    text-transform: uppercase;
+}
+
+/* .underline {
+    position: relative;
+    top: 2px;
+
+    opacity: 0;
+    background-color: white;
+    height: 4px;
+    width: 2px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.underline .active {
+    width: 7px;
+    opacity: 1;
+} */
