@@ -1,0 +1,73 @@
+@import url('../navbar.css');
+@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    color: rgb(226, 226, 226);
+    margin: 0px;
+    font-family: Catamaran;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(34,102,138,1) 0%, rgba(154,118,255,1) 80.6% );
+}
+/* Project layout start */
+.gallery-links-h2 {
+    font-size: 50px;
+    font-weight: 600;
+    /* color: #111; */
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 7px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+section a {
+    color: rgb(85, 26, 139);
+    padding: 20px;
+    border: 5px solid rgb(92, 86, 86);
+    flex-basis: 90%;
+    margin: 20px;
+    transition: transform 0.1s ease, box-shadow 0.6s ease;
+}
+
+section a h1 {
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(170, 173, 196);
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+section a p {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(170, 173, 196);
+    text-decoration: none;
+}
+section a:hover {
+    transform: translate(-5px,-10px);
+    box-shadow: 6px 4px rgb(37, 37, 37);
+    color: rgb(237, 167, 255);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+section a:hover p, section a:hover h1 {
+    color: rgb(226, 226, 226);
+}
+@media only screen and (min-width: 813px) {
+    section a { 
+        flex-basis: 300px;
+        margin: 20px;
+    }
+}
+/* Navbar */
+nav a {
+    mix-blend-mode: screen;
+}
