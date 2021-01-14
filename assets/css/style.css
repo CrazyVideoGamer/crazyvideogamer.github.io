@@ -84,14 +84,16 @@ nav a {
 }
 
 #arrow {
+    top: -20px;
+    position: relative;
     animation: movement 0.5s infinite alternate;
 }
 
 @keyframes movement {
     0% {
-        margin-top: 0px;
+        top: -20px;
     }
     100% {
-        margin-top: 10px;
+        top: -5px;
     }
 }
